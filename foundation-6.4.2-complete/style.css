@@ -1,0 +1,37 @@
+/*Footer*/
+.boldngrey{
+	color: #767676;
+}
+
+.panel {
+   padding: 20px; 
+}
+
+.grey {
+    color: silver;
+    list-style-type: none;
+    line-height: 15px;
+}
+
+.lien {
+    color: silver;
+    font-size: 12px;   
+}
+
+.lien2 {
+    color: silver;  
+}
+
+.lien:hover {
+    text-decoration:underline;
+    color: silver;
+}
+.lien2:hover {
+    text-decoration:underline;
+    color: silver;
+}
+.bgrey{
+	border-top-style: solid;
+	border-width: 1px;
+	color: silver;
+}
