@@ -2,3 +2,34 @@
 	font-family: "Circular";
     src: url('Circular_Air-Light-199f6f9d92c4f5f0cabe9ce7765467a9.woff2');
 }
+
+/* FORMULAIRE */
+* {
+	font-family: 'Varela Round', sans-serif;
+}
+
+form {
+	margin-top: 50px;
+}
+
+label {
+	color: ##484848;
+	padding-left: 24px;
+}
+
+.button {
+	border-radius: 4px;
+	margin: 5px 0 0 0;
+	background-color: #FF5A5F;
+}
+.button:hover {
+	background-color: #FF5A5F;
+}
+.reservation-form {
+	border: 1px solid #EDE9E9;
+	border-radius: 4px;
+	padding-top: 15px;
+}
+.content input{
+	padding-left: 25px;
+}

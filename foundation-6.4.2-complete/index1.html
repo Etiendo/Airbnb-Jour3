@@ -4,10 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Airbnb</title>
+
+
     <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation-datepicker/1.5.0/css/foundation-datepicker.min.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Link Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"> 
+    <title>Airbnb</title>
   </head>
   <body>
       
@@ -40,13 +45,44 @@
         </div>
       </div>
 
+    <!-- Formulaire de contact -->
+
+    <form>
+      <div class="grid-container">
+        <div class="reservation-form grid-x">
+
+          <div class="content medium-3 cell">
+            <label>Où</label>
+              <input type="text" placeholder="Partout" style="border:none; box-shadow: none;">
+          </div>
+
+            <div class="content medium-3 cell">
+              <label>Quand</label>
+                <input class="span2" type="text" data-date-format="dd/mm/yy" id="dp2" value="Dates indifférentes" style="border:none; box-shadow: none;">
+            </div>
+
+        <div class="content medium-3 cell">
+        <label>Voyageur</label>
+          <input type="text" placeholder="1 voyageur" style="border:none; box-shadow: none;">
+        </div>
+
+        <div class="medium-3 cell">
+          <label>
+            <a class="button large" href="#">Rechercher</a>
+          </label>
+        </div>
+
+        </div> <!-- end reservation-form -->
+      </div> <!-- end container -->
+    </form>
       
+     <!-- Script jQuery -->
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation-datepicker/1.5.0/js/foundation-datepicker.min.js"></script> 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
-      
-      
       
   </body>
 </html>
